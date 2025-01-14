@@ -1,28 +1,29 @@
-# React Button UI component
+# React Badge UI component
 
-This is a very light UI Button component library for ReactJS.
+This is a very light UI Badge component library for ReactJS.
 It's using TailwindCSS for styling.
 
 You can also view the demo and get the source code directly for each component without installing this library.
 
-- [Preview and get the code](https://it-tool.app/button)
+- [Preview and get the code](https://it-tool.app/badge)
 
 ## Installation
 
 ```sh
-npm install @it-tool-ui/button
+npm install @it-tool-ui/badge
 ```
 
 ```js
-import { Button } from "@it-tool-ui/button";
+import { Badge } from "@it-tool-ui/badge";
 
-<Button
-  buttonColor="primary"
-  radius="large"
+<Badge
+  title="7"
+  shape="square"
   size="medium"
-  variant="solid"
-  disabled={false}
+  color="primary"
+  showOutline={false}
+  hidden={false}
 >
-  Click me
-</Button>;
+  <image src="https://i.pravatar.cc/150?u=a042581f4e29026704d" alt="Jane" />
+</Badge>;
 ```

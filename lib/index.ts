@@ -1,5 +1,5 @@
 import "./index.css";
-import Button from "./components/button.component";
-import type { ButtonProps } from "./components/button.types";
+import Badge from "./components/badge.component";
+import type { BadgeProps } from "./components/badge.types";
 
-export { Button, ButtonProps };
+export { Badge, BadgeProps };
